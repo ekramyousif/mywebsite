@@ -5,11 +5,15 @@ nav{
 	background-color: aqua;
 	overflow: hidden;
 	padding-top: 25px;
+
 }
 
 li{
 	float: left;
 	padding: 15px;
+	padding: top: 30px;
+	list-style-type: none;
+	text-teanform: uppercase;
 
 }
 .logo{
@@ -29,3 +33,13 @@ li{
 	font-size: 35px;
 	color: green;
 }
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: red;
+	background-color: black;
+}
+
